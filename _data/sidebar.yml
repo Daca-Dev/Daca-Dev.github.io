@@ -1,0 +1,6 @@
+- label: Map del sitio
+  items:
+    - name: Home
+      link: /
+    - name: Blog
+      link: /blog/

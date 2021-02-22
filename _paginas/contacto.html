@@ -1,0 +1,56 @@
+---
+# Layout
+layout: page
+hide_hero: true
+---
+
+<div class="hero-body">
+  <div class="container has-text-centered">
+    <div class="columns is-8 is-variable">
+      <div class="column is-two-thirds has-text-left">
+        <h1 class="title is-1">Contacto</h1>
+        <p class="is-size-4">
+          Trabajamos en un proyecto?<br />
+          o quieres conocer mas acerca de los temas tratados en el blog?<br />
+          No dudes en decrilo!
+        </p>
+        <div class="social-media">
+          <a href="https://facebook.com" target="_blank">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+      <div class="column is-one-third has-text-left">
+        <form action="https://formspree.io/{{site.email}}" method="POST">
+          <div class="field">
+            <label class="label">Name</label>
+            <div class="control">
+              <input class="input is-medium" type="text" name="name" placeholder="Nombre" required />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control">
+              <input class="input is-medium" type="email" name="_replyto" placeholder="Correo electrónico" required />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Message</label>
+            <div class="control">
+              <textarea class="textarea is-medium" name="message" placeholder="Mensaje / Comentario" required></textarea>
+            </div>
+          </div>
+          <div class="control">
+            <button type="submit" class="button is-link is-fullwidth has-text-weight-medium is-medium">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

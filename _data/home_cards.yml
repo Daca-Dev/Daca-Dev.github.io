@@ -1,0 +1,28 @@
+style: is-light
+height: is-medium
+items:
+  - title: Compartir
+    subtitle: Conocimiento y experiencias
+    icon: fa-share-alt-square
+    description: >
+      The example description text goes here and can be multiple lines.
+      
+      For example, such as this. 
+
+  - title: Aprender
+    subtitle: A hacer
+    icon: fa-leanpub
+    icon_brand: true
+    description: >
+      The example description text goes here and can be multiple lines.
+      
+      For example, such as this.olio/
+
+  - title: Explorar
+    subtitle: El mundo y tus posibilidades
+    icon: fa-wpexplorer
+    icon_brand: true
+    description: >
+      The example description text goes here and can be multiple lines.
+      
+      For example, such as this.

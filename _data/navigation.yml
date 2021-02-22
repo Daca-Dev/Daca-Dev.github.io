@@ -1,0 +1,10 @@
+
+- name: Sobre mi
+  link: /sobre-mi/
+- name: Portafolio
+  link: /portafolio/
+- name: Blog
+  link: /blog/
+  dropdown: 
+    - name: Categorias
+      link: /blog/categorias
