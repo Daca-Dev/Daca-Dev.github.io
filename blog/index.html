@@ -1,10 +1,31 @@
 ---
 # Layout
-layout: blog
+layout: default
 hide_hero: false
-show_sidebar: false
+hero_height: is-fullwidth
+toc: true
 # Meta data
 title: Blog
 subtitle: >
     Echale un vistazo a los artículos de la Daca Dev.
 ---
+
+<div class="columns is-multiline is-align-content-stretch">
+    <!-- <div class="column is-12">
+        {% include pagination.html %}
+    </div> -->
+    {% for post in paginator.posts %}
+    <div class="column is-12-mobile is-6-tablet is-4-desktop">
+        {% include post-card.html %}
+    </div>
+    {% endfor %}
+    <!-- <div class="column is-12">
+        {% include subscribe.html %}
+    </div> -->
+</div>
+
+<div class="columns">
+    <div class="column is-12">
+        {% include pagination.html %}
+    </div>
+</div>

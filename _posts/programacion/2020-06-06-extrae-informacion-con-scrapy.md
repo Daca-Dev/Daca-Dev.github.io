@@ -9,7 +9,7 @@ title: Extrae data de la web con Scrapy
 author: david
 category: programacion
 tags: ["scrapy"]
-summary: Scrapy es un framework de Python que te permite crear tu propia arana para obtener data de la web.
+# summary: Scrapy es un framework de Python que te permite crear tu propia arana para obtener data de la web.
 ---
 
 

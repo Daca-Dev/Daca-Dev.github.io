@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="content">
+
+    <p><b>Publicado:</b> {{ page.date | date: "%b %-d, %Y" }} por <b>{{ page.author | capitalize }}</b></p>
+    <div class="tags">
+        {% for tag in page.tags %}
+            {% include tag.html tag=tag %}
+        {% endfor %}
+    </div>
+
+    {{ content }}
+</div>
+
+
+{% unless site.hide_share_buttons %}
+{% include share-buttons.html %}
+{% endunless %}
+
+{% if site.disqus.shortname %}
+    {% include disqus.html %}
+{% endif %}
