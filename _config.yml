@@ -30,7 +30,7 @@ twitter_username: daca.dev
 github_username:  dacadev
 
 # Build settings
-theme: bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
   - jekyll-feed
 
