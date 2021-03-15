@@ -6,9 +6,11 @@ layout: default
 
     <p><b>Publicado:</b> {{ page.date | date: "%b %-d, %Y" }} por <b>{{ page.author | capitalize }}</b></p>
     <div class="tags">
-        {% for tag in page.tags %}
-            {% include tag.html tag=tag %}
-        {% endfor %}
+        {% if page.tags %}
+            {% for tag in page.tags %}
+                {% include tag.html tag=tag %}
+            {% endfor %}
+        {% endif %}
     </div>
 
     {{ content }}
